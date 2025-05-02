@@ -1,0 +1,12 @@
+allowed_domains: []
+default_strategies:
+- article
+- semantic
+- soup
+max_content_length: 10000
+max_retries: 3
+rate_limiting:
+  enabled: false
+  requests_per_minute: 10
+timeout: 20
+user_agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
